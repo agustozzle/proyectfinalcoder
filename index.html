@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Seguimiento de Gastos</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div class="card">
+    <h1>Seguimiento de Gastos</h1>
+    <div class="form-container">
+      <label for="initialMoney">Dinero Inicial:</label>
+      <input type="number" id="initialMoney" step="0.01" placeholder="Ingrese el dinero inicial">
+      <label for="totalDays">Total de Días:</label>
+      <input type="number" id="totalDays" placeholder="Ingrese el total de días">
+      <button id="startTracking">Comenzar Seguimiento</button>
+    </div>
+  </div>
+  
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.18/dist/sweetalert2.all.min.js"></script>
+  <script src="./main.js"></script>
+</body>
+</html>
